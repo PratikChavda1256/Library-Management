@@ -1,0 +1,96 @@
+
+/*
+
+.footer-container
+{
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    margin-top: 7rem;
+    padding: 6rem 10rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #fff;
+    background-color: #333;
+}
+
+.footer-list
+{
+    padding: 0;
+    list-style: none;
+}
+.footer-list h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.footer-list p
+{
+    color: var(--dull-grey);
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #fff; 
+    transition: color 0.3s ease; 
+}
+
+.footer-list a:hover {
+    color: #ffa500; 
+}
+
+*/
+/* .footer-list p:hover
+{
+    color: white;
+}
+
+.footer Link
+{
+    text-decoration: none;
+} */
+
+
+
+/* Footer.css */
+
+/* Footer.css */
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    margin-top: 7rem;
+    padding: 6rem 10rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #fff;
+    background-color: #333;
+}
+
+.footer-list {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-list h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-list p {
+    color: var(--dull-grey);
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #fff; /* Set the link color */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.footer-list a:hover {
+    color: #ffa500; /* Set the link color on hover */
+}

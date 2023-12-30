@@ -1,0 +1,77 @@
+/* Admin Menu styling */
+.dashboard-menu {
+  width: 220px;
+  margin: 20px auto;
+  background-color: #f8f9fa; /* Set your desired background color */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-menu h4 {
+  background-color: #343a40; /* Darken the menu header background color */
+  color: #fff; /* Set the font color for the menu header */
+  padding: 20px;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.list-group-item {
+  padding: 15px;
+  text-decoration: none;
+  color: #495057; /* Darken the font color for menu items */
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef; /* Lighten the background color on hover */
+}
+
+.list-group-item.active {
+  background-color: #6c757d; /* Set the background color for active menu items */
+  color: #fff; /* Set the font color for active menu items */
+}
+
+/* Optional: Add a subtle transition effect on the active item */
+.list-group-item.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #fff; /* Set the color of the active item indicator */
+  transition: background-color 0.3s;
+}
+
+.list-group-item.active:hover {
+  background-color: #495057; /* Darken the background color on hover for active items */
+}
+
+/* Additional styling for search form */
+.search-form {
+  margin-right: 10px;
+  margin-top: 16px;
+}
+
+.search-form input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.search-form button {
+  background-color: #343a40;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #495057; /* Darken the background color on hover for the button */
+}

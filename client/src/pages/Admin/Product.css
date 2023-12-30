@@ -1,0 +1,33 @@
+/* Products.css */
+
+.product-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-link:hover {
+    text-decoration: underline;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+/* Add any additional styles as needed */
